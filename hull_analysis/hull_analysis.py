@@ -9,7 +9,7 @@ from copy import deepcopy
 
 
 #user inputs 
-stl_file = 'analysis\hull8.stl'
+stl_file = 'hull_analysis\hull9.stl'
 total_mass = 210  #pounds
 cog_x = -.01   #from CAD assembly        
 cog_y = -2  #from CAD assembly   
@@ -327,5 +327,6 @@ def plot_comparison(original_mesh, rotated_mesh, original_cg, rotated_cg, center
 
 
 if __name__ == "__main__":
-    #stability_plot()
     single_angle()
+    stability_plot()
+   
